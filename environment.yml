@@ -1,0 +1,9 @@
+# use `conda env create -f environment.yml` to create a new conda env
+name: quantum
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python>=3.10
+  - pip:
+      - -r file:requirements.txt
